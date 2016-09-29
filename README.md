@@ -1,2 +1,6 @@
 # synergtech.github.io
-![SynerG Tech Party](https://raw.githubusercontent.com/synerGTech/synergtech.github.io/master/images/stp.svg "synerG Tech Party")
+![SynerG Tech Party](/images/stp.svg "synerG Tech Party")
+<p align="center">
+  <img src="images/stp.svg"/>
+ 
+</p>
