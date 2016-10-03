@@ -26,8 +26,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'https://github.com/synerGTech'),
+          ('cse.iitb', 'http://www.cse.iitb.ac.in/synerg/doku.php'),)
 
 DEFAULT_PAGINATION = 3
 
