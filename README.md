@@ -3,6 +3,11 @@
 
 ##Contributing
 The blog uses pelican for generating static html files.
+
+<style type="text/css">
+    ol { list-style-type: upper-alpha; }
+</style>
+
 A. Install pelican
 
 ```sudo apt-get install python-pip```
