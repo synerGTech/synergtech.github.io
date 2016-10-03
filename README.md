@@ -3,19 +3,19 @@
 
 ##Contributing
 The blog uses pelican for generating static html files.
-- Install pelican
+A. Install pelican
 
 ```sudo apt-get install python-pip```
 
 ```pip install pelican markdown```
 
-- Clone this repo
+A. Clone this repo
 
 The master branch of this repo contains the files that will be visible on synergtech.github.io. The contents branch contains all other filres, including the directory structure that you wan't to generate files for output folder. follow along.
 
 ```git clone --recursive -b content git@github.com:synerGTech/synergtech.github.io.git```
 
-- Add a blog post
+A. Add a blog post
 
 A blog post in pelican is nothing but a simple markdown file in contents folder, from which pelican generates output html files.
 
@@ -32,14 +32,14 @@ This is a new blog post.
 :wq
 ```
 
--Generate html files
+A. Generate html files
 
 ```
 make html
 make publish
 ```
 
--Commit changes to github
+A. Commit changes to github
 
 ```
 git add -A .
