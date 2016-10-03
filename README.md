@@ -38,10 +38,13 @@ git push origin content
 cd output
 git add -A .
 git commit -m "added a new blog post"
+git branch temp
+git checkout master
+git merge temp
 git push origin master
 ```
 
-Yes, there are two commits.
+Yes, there are two commits, and a seemingly useless merge. Make do with that until a saner way to do things is found. If you are a github expert, help me out.
 
 If you are not added as a contributor to this repo, then fork the repo first, clone your version of it, in a similar way as above. Make changes, and push the changes to your copy of
 the repo. Send a pull request.
